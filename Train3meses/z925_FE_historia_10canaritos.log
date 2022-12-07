@@ -1,0 +1,18 @@
+         used (Mb) gc trigger (Mb) max used (Mb)
+Ncells 273711 14.7     660902 35.3   451923 24.2
+Vcells 459120  3.6    8388608 64.0  1800332 13.8
+Loading required package: data.table
+Loading required package: Rcpp
+Loading required package: ranger
+Loading required package: randomForest
+randomForest 4.7-1.1
+Type rfNews() to see new features/changes/bug fixes.
+
+Attaching package: ‘randomForest’
+
+The following object is masked from ‘package:ranger’:
+
+    importance
+
+Loading required package: lightgbm
+[1] 433

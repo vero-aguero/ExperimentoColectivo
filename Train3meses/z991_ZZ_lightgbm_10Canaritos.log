@@ -1,0 +1,11 @@
+         used (Mb) gc trigger (Mb) max used (Mb)
+Ncells 273711 14.7     660902 35.3   451923 24.2
+Vcells 459120  3.6    8388608 64.0  1800332 13.8
+Loading required package: data.table
+Loading required package: lightgbm
+Error in setwd(paste0(base_dir, "exp/", PARAM$experimento, "/")) : 
+  cannot change working directory
+No traceback available 
+Error during wrapup: exiting after script error
+Error: no more error handlers available (recursive errors?); invoking 'abort' restart
+Execution halted

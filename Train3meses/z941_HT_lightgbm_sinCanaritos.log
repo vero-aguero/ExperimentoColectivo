@@ -1,0 +1,198 @@
+         used (Mb) gc trigger (Mb) max used (Mb)
+Ncells 273711 14.7     660902 35.3   451923 24.2
+Vcells 459120  3.6    8388608 64.0  1800332 13.8
+Loading required package: data.table
+Loading required package: rlist
+Loading required package: lightgbm
+Loading required package: DiceKriging
+Loading required package: mlrMBO
+Loading required package: mlr
+Loading required package: ParamHelpers
+Warning message: 'mlr' is in 'maintenance-only' mode since July 2019.
+Future development will only happen in 'mlr3'
+(<https://mlr3.mlr-org.com>). Due to the focus on 'mlr3' there might be
+uncaught bugs meanwhile in {mlr} - please consider switching.
+Loading required package: smoof
+Loading required package: checkmate
+
+Attaching package: ‘checkmate’
+
+The following object is masked from ‘package:DiceKriging’:
+
+    checkNames
+
+Warning message:
+no DISPLAY variable so Tk is not available 
+            used   (Mb) gc trigger    (Mb)   max used    (Mb)
+Ncells   2193136  117.2    4327541   231.2    2722332   145.4
+Vcells 954411322 7281.6 2710861311 20682.3 2258931660 17234.3
+Computing y column(s) for design. Not provided.
+20221104 042237	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	426	1	1	1	0.1	50	0.5	FALSE	644141	0.222635552507782	0.550193202844821	2037	1048	1.75298042576128e-06	13953	19534000	1
+20221104 042542	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	140	1	1	1	0.1	50	0.5	FALSE	644141	0.156708567072928	0.334073803049978	4523	1481	0.00899005105272312	16456	22128000	2
+20221104 043007	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	232	1	1	1	0.1	50	0.5	FALSE	644141	0.241996390976492	0.49814974720357	5037	1251	0.00210685262789467	14834	20092000	3
+20221104 043509	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	179	1	1	1	0.1	50	0.5	FALSE	644141	0.0541513977948489	0.514690257539041	2827	1365	0.0140768673036602	15326	23668000	4
+20221104 043708	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	86	1	1	1	0.1	50	0.5	FALSE	644141	0.185401935645714	0.219577020604629	7317	446	0.016732443977871	15469	23062000	5
+20221104 044234	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	502	1	1	1	0.1	50	0.5	FALSE	644141	0.11311813502005	0.751065902388655	1485	159	9.59811360960933e-05	13667	21706000	6
+20221104 045110	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	550	1	1	1	0.1	50	0.5	FALSE	644141	0.0664770931566454	0.845065220573451	1668	1594	0.000293304296653766	13364	24232000	7
+20221104 045759	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	903	1	1	1	0.1	50	0.5	FALSE	644141	0.078844935886882	0.896938827855047	6761	334	0.00292595292096151	13647	22066000	8
+20221104 050333	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	441	1	1	1	0.1	50	0.5	FALSE	644141	0.193204329905857	0.600217257870827	5818	1958	0.00114707517528094	13685	21270000	9
+20221104 050819	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	477	1	1	1	0.1	50	0.5	FALSE	644141	0.12388410423715	0.681959598488174	4103	829	0.000925060351169632	14494	21972000	10
+20221104 051303	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	317	1	1	1	0.1	50	0.5	FALSE	644141	0.276446252513924	0.384911587438546	3434	565	7.91653420897257e-05	15222	18516000	11
+20221104 051716	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	377	1	1	1	0.1	50	0.5	FALSE	644141	0.0354171741040045	0.946503372711595	6031	1676	0.0178186003761391	14232	24176000	12
+20221104 053151	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	1462	1	1	1	0.1	50	0.5	FALSE	644141	0.0233473616858828	0.442435323353857	898	40	0.00990025341283947	14713	23934000	13
+20221104 053343	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	100	1	1	1	0.1	50	0.5	FALSE	644141	0.281946206605644	0.70405981898075	7786	688	0.0135690339222803	14870	20580000	14
+20221104 053619	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	91	1	1	1	0.1	50	0.5	FALSE	644141	0.246820803034498	0.96875522461487	96	907	1.04211942075838e-06	16151	18018000	15
+20221104 054031	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	326	1	1	1	0.1	50	0.5	FALSE	644141	0.136531985018664	0.290760051028337	3787	1867	0.00222292801330384	14872	20336000	16
+[mbo] 0: learning_rate=0.223; feature_fraction=0.55; min_data_in_leaf=2037; num_leaves=1048 : y = 1.95e+07 : 513.4 secs : initdesign
+[mbo] 0: learning_rate=0.157; feature_fraction=0.334; min_data_in_leaf=4523; num_leaves=1481 : y = 2.21e+07 : 185.2 secs : initdesign
+[mbo] 0: learning_rate=0.242; feature_fraction=0.498; min_data_in_leaf=5037; num_leaves=1251 : y = 2.01e+07 : 265.4 secs : initdesign
+[mbo] 0: learning_rate=0.0542; feature_fraction=0.515; min_data_in_leaf=2827; num_leaves=1365 : y = 2.37e+07 : 301.7 secs : initdesign
+[mbo] 0: learning_rate=0.185; feature_fraction=0.22; min_data_in_leaf=7317; num_leaves=446 : y = 2.31e+07 : 119.7 secs : initdesign
+[mbo] 0: learning_rate=0.113; feature_fraction=0.751; min_data_in_leaf=1485; num_leaves=159 : y = 2.17e+07 : 325.4 secs : initdesign
+[mbo] 0: learning_rate=0.0665; feature_fraction=0.845; min_data_in_leaf=1668; num_leaves=1594 : y = 2.42e+07 : 515.6 secs : initdesign
+[mbo] 0: learning_rate=0.0788; feature_fraction=0.897; min_data_in_leaf=6761; num_leaves=334 : y = 2.21e+07 : 409.1 secs : initdesign
+[mbo] 0: learning_rate=0.193; feature_fraction=0.6; min_data_in_leaf=5818; num_leaves=1958 : y = 2.13e+07 : 334.3 secs : initdesign
+[mbo] 0: learning_rate=0.124; feature_fraction=0.682; min_data_in_leaf=4103; num_leaves=829 : y = 2.2e+07 : 285.7 secs : initdesign
+[mbo] 0: learning_rate=0.276; feature_fraction=0.385; min_data_in_leaf=3434; num_leaves=565 : y = 1.85e+07 : 284.5 secs : initdesign
+[mbo] 0: learning_rate=0.0354; feature_fraction=0.947; min_data_in_leaf=6031; num_leaves=1676 : y = 2.42e+07 : 252.6 secs : initdesign
+[mbo] 0: learning_rate=0.0233; feature_fraction=0.442; min_data_in_leaf=898; num_leaves=40 : y = 2.39e+07 : 874.8 secs : initdesign
+[mbo] 0: learning_rate=0.282; feature_fraction=0.704; min_data_in_leaf=7786; num_leaves=688 : y = 2.06e+07 : 112.7 secs : initdesign
+[mbo] 0: learning_rate=0.247; feature_fraction=0.969; min_data_in_leaf=96; num_leaves=907 : y = 1.8e+07 : 155.6 secs : initdesign
+[mbo] 0: learning_rate=0.137; feature_fraction=0.291; min_data_in_leaf=3787; num_leaves=1867 : y = 2.03e+07 : 252.4 secs : initdesign
+Saved the current state after iteration 1 in the file bayesiana.RDATA.
+20221104 055328	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	882	1	1	1	0.1	50	0.5	FALSE	644141	0.0283411429253022	0.999254997580075	6	1513	7.90624107533058e-07	12490	23980000	17
+[mbo] 1: learning_rate=0.0283; feature_fraction=0.999; min_data_in_leaf=6; num_leaves=1513 : y = 2.4e+07 : 774.2 secs : infill_ei
+Saved the current state after iteration 2 in the file bayesiana.RDATA.
+20221104 060123	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	629	1	1	1	0.1	50	0.5	FALSE	644141	0.0520008424698508	0.999599776552644	1762	2046	0.000537035195996336	13583	23314000	18
+[mbo] 2: learning_rate=0.052; feature_fraction=1; min_data_in_leaf=1762; num_leaves=2046 : y = 2.33e+07 : 473.0 secs : infill_ei
+20221104 063904	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	4586	1	1	1	0.1	50	0.5	FALSE	644141	0.00522871426504475	0.831318661771467	5228	1008	0.0110066927577394	14620	24360000	19
+[mbo] 3: learning_rate=0.00523; feature_fraction=0.831; min_data_in_leaf=5228; num_leaves=1008 : y = 2.44e+07 : 2260.3 secs : infill_ei
+Saved the current state after iteration 4 in the file bayesiana.RDATA.
+20221104 070900	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	4633	1	1	1	0.1	50	0.5	FALSE	644141	0.00881922289634791	0.796233758806856	7975	1531	0.00932520776802722	14877	22886000	20
+[mbo] 4: learning_rate=0.00882; feature_fraction=0.796; min_data_in_leaf=7975; num_leaves=1531 : y = 2.29e+07 : 1793.3 secs : infill_ei
+Saved the current state after iteration 5 in the file bayesiana.RDATA.
+20221104 072325	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	1801	1	1	1	0.1	50	0.5	FALSE	644141	0.026376069083831	0.999133004531183	4018	1004	0.00185979065353097	13501	23078000	21
+[mbo] 5: learning_rate=0.0264; feature_fraction=0.999; min_data_in_leaf=4018; num_leaves=1004 : y = 2.31e+07 : 862.9 secs : infill_ei
+Saved the current state after iteration 6 in the file bayesiana.RDATA.
+20221104 073346	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	421	1	1	1	0.1	50	0.5	FALSE	644141	0.0142337585200767	0.743849661483208	757	1425	0.00898066156471757	16705	22830000	22
+[mbo] 6: learning_rate=0.0142; feature_fraction=0.744; min_data_in_leaf=757; num_leaves=1425 : y = 2.28e+07 : 618.2 secs : infill_ei
+Saved the current state after iteration 7 in the file bayesiana.RDATA.
+20221104 083736	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	5520	1	1	1	0.1	50	0.5	FALSE	644141	0.00500650932922061	0.53112284103662	5424	286	0.0106227216697604	14263	24194000	23
+[mbo] 7: learning_rate=0.00501; feature_fraction=0.531; min_data_in_leaf=5424; num_leaves=286 : y = 2.42e+07 : 3828.3 secs : infill_ei
+Saved the current state after iteration 8 in the file bayesiana.RDATA.
+20221104 084516	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	639	1	1	1	0.1	50	0.5	FALSE	644141	0.0602374491417844	0.931239074780165	1	1479	3.1190472832884e-07	14348	22744000	24
+[mbo] 8: learning_rate=0.0602; feature_fraction=0.931; min_data_in_leaf=1; num_leaves=1479 : y = 2.27e+07 : 456.6 secs : infill_ei
+20221104 084849	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	273	1	1	1	0.1	50	0.5	FALSE	644141	0.0685085735107619	0.650891219657713	4339	1727	0.0128792143728478	14469	24102000	25
+[mbo] 9: learning_rate=0.0685; feature_fraction=0.651; min_data_in_leaf=4339; num_leaves=1727 : y = 2.41e+07 : 213.3 secs : infill_ei
+Saved the current state after iteration 10 in the file bayesiana.RDATA.
+20221104 085542	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	326	1	1	1	0.1	50	0.5	FALSE	644141	0.0358515995330077	0.502812071486305	2249	1721	0.0109751314329633	15630	24100000	26
+[mbo] 10: learning_rate=0.0359; feature_fraction=0.503; min_data_in_leaf=2249; num_leaves=1721 : y = 2.41e+07 : 409.9 secs : infill_ei
+20221104 085936	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	199	1	1	1	0.1	50	0.5	FALSE	644141	0.0715797996809665	0.317913680772569	2127	1621	0.00816131774695791	15625	22590000	27
+[mbo] 11: learning_rate=0.0716; feature_fraction=0.318; min_data_in_leaf=2127; num_leaves=1621 : y = 2.26e+07 : 233.3 secs : infill_ei
+Saved the current state after iteration 12 in the file bayesiana.RDATA.
+20221104 091349	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	1674	1	1	1	0.1	50	0.5	FALSE	644141	0.0389453876684199	0.811002599922541	3193	1658	0.000187475908276622	15231	22658000	28
+[mbo] 12: learning_rate=0.0389; feature_fraction=0.811; min_data_in_leaf=3193; num_leaves=1658 : y = 2.27e+07 : 850.4 secs : infill_ei
+Saved the current state after iteration 13 in the file bayesiana.RDATA.
+20221104 092109	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	193	1	1	1	0.1	50	0.5	FALSE	644141	0.031970581761231	0.443099701047987	823	1623	0.012968218451854	14014	24612000	29
+[mbo] 13: learning_rate=0.032; feature_fraction=0.443; min_data_in_leaf=823; num_leaves=1623 : y = 2.46e+07 : 437.2 secs : infill_ei
+20221104 092736	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	590	1	1	1	0.1	50	0.5	FALSE	644141	0.0331691396346864	0.279961508712935	6761	2046	0.0141694058931082	16402	22636000	30
+[mbo] 14: learning_rate=0.0332; feature_fraction=0.28; min_data_in_leaf=6761; num_leaves=2046 : y = 2.26e+07 : 386.1 secs : infill_ei
+Saved the current state after iteration 15 in the file bayesiana.RDATA.
+20221104 094223	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	901	1	1	1	0.1	50	0.5	FALSE	644141	0.0336135566469591	0.879821179605815	228	1251	1.55602420350485e-06	13184	23952000	31
+[mbo] 15: learning_rate=0.0336; feature_fraction=0.88; min_data_in_leaf=228; num_leaves=1251 : y = 2.4e+07 : 884.8 secs : infill_ei
+Saved the current state after iteration 16 in the file bayesiana.RDATA.
+20221104 095714	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	792	1	1	1	0.1	50	0.5	FALSE	644141	0.0294114227009401	0.543815797536019	4	1729	6.10794284008281e-07	14764	23832000	32
+[mbo] 16: learning_rate=0.0294; feature_fraction=0.544; min_data_in_leaf=4; num_leaves=1729 : y = 2.38e+07 : 888.5 secs : infill_ei
+Saved the current state after iteration 17 in the file bayesiana.RDATA.
+20221104 100543	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	394	1	1	1	0.1	50	0.5	FALSE	644141	0.0335592131278493	0.419500407629622	3	641	9.33072222750713e-05	13786	23948000	33
+[mbo] 17: learning_rate=0.0336; feature_fraction=0.42; min_data_in_leaf=3; num_leaves=641 : y = 2.39e+07 : 506.1 secs : infill_ei
+20221104 103808	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	1207	1	1	1	0.1	50	0.5	FALSE	644141	0.00502260916607838	0.904951809085539	781	1642	0.0121588671627113	14182	24836000	34
+[mbo] 18: learning_rate=0.00502; feature_fraction=0.905; min_data_in_leaf=781; num_leaves=1642 : y = 2.48e+07 : 1944.2 secs : infill_ei
+Saved the current state after iteration 19 in the file bayesiana.RDATA.
+20221104 110455	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	1363	1	1	1	0.1	50	0.5	FALSE	644141	0.0068388051085688	0.449905352667044	1699	1646	0.0123320043874386	14633	24894000	35
+[mbo] 19: learning_rate=0.00684; feature_fraction=0.45; min_data_in_leaf=1699; num_leaves=1646 : y = 2.49e+07 : 1605.1 secs : infill_ei
+Saved the current state after iteration 20 in the file bayesiana.RDATA.
+20221104 112350	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	1555	1	1	1	0.1	50	0.5	FALSE	644141	0.0154173681661154	0.443771976155136	4300	1559	0.00830549982855068	15558	23284000	36
+[mbo] 20: learning_rate=0.0154; feature_fraction=0.444; min_data_in_leaf=4300; num_leaves=1559 : y = 2.33e+07 : 1132.3 secs : infill_ei
+Saved the current state after iteration 21 in the file bayesiana.RDATA.
+20221104 125448	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	6441	1	1	1	0.1	50	0.5	FALSE	644141	0.00501597131139625	0.445502557408874	180	947	1.36872546088967e-06	12715	24810000	37
+[mbo] 21: learning_rate=0.00502; feature_fraction=0.446; min_data_in_leaf=180; num_leaves=947 : y = 2.48e+07 : 5455.3 secs : infill_ei
+Saved the current state after iteration 22 in the file bayesiana.RDATA.
+20221104 132916	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	1029	1	1	1	0.1	50	0.5	FALSE	644141	0.00500216534675871	0.53264871601578	697	1606	0.0136381636335045	14053	25174000	38
+[mbo] 22: learning_rate=0.005; feature_fraction=0.533; min_data_in_leaf=697; num_leaves=1606 : y = 2.52e+07 : 2064.9 secs : infill_ei
+Saved the current state after iteration 23 in the file bayesiana.RDATA.
+20221104 135944	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	3001	1	1	1	0.1	50	0.5	FALSE	644141	0.00501368050100235	0.261811015675985	2111	1936	0.00776486445202879	15592	23696000	39
+[mbo] 23: learning_rate=0.00501; feature_fraction=0.262; min_data_in_leaf=2111; num_leaves=1936 : y = 2.37e+07 : 1825.4 secs : infill_ei
+Saved the current state after iteration 24 in the file bayesiana.RDATA.
+20221104 142741	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	1566	1	1	1	0.1	50	0.5	FALSE	644141	0.00500216439157303	0.666399731156695	861	1126	0.00705539656254793	16529	22942000	40
+[mbo] 24: learning_rate=0.005; feature_fraction=0.666; min_data_in_leaf=861; num_leaves=1126 : y = 2.29e+07 : 1674.1 secs : infill_ei
+Saved the current state after iteration 25 in the file bayesiana.RDATA.
+20221104 145331	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	3213	1	1	1	0.1	50	0.5	FALSE	644141	0.00501860172335668	0.868983968841776	52	165	0.00351867120370915	13426	24428000	41
+[mbo] 25: learning_rate=0.00502; feature_fraction=0.869; min_data_in_leaf=52; num_leaves=165 : y = 2.44e+07 : 1547.1 secs : infill_ei
+Saved the current state after iteration 26 in the file bayesiana.RDATA.
+20221104 150127	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	450	1	1	1	0.1	50	0.5	FALSE	644141	0.0764669074553286	0.74005700470726	440	2047	2.41286626499122e-06	13755	23530000	42
+[mbo] 26: learning_rate=0.0765; feature_fraction=0.74; min_data_in_leaf=440; num_leaves=2047 : y = 2.35e+07 : 473.3 secs : infill_ei
+20221104 155254	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	762	1	1	1	0.1	50	0.5	FALSE	644141	0.00502014101698356	0.491405160172016	173	1899	0.00863302620890431	12975	25730000	43
+[mbo] 27: learning_rate=0.00502; feature_fraction=0.491; min_data_in_leaf=173; num_leaves=1899 : y = 2.57e+07 : 3086.5 secs : infill_ei
+Saved the current state after iteration 28 in the file bayesiana.RDATA.
+20221104 162416	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	1112	1	1	1	0.1	50	0.5	FALSE	644141	0.00502736367571559	0.486962556872124	476	2044	0.00734307948579122	16727	22626000	44
+[mbo] 28: learning_rate=0.00503; feature_fraction=0.487; min_data_in_leaf=476; num_leaves=2044 : y = 2.26e+07 : 1880.0 secs : infill_ei
+Saved the current state after iteration 29 in the file bayesiana.RDATA.
+20221104 165536	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	834	1	1	1	0.1	50	0.5	FALSE	644141	0.00511699322040784	0.499890356735267	290	1680	0.00897798780344855	14930	24140000	45
+[mbo] 29: learning_rate=0.00512; feature_fraction=0.5; min_data_in_leaf=290; num_leaves=1680 : y = 2.41e+07 : 1876.1 secs : infill_ei
+Saved the current state after iteration 30 in the file bayesiana.RDATA.
+20221104 175539	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	4421	1	1	1	0.1	50	0.5	FALSE	644141	0.00537373419925947	0.634090285953949	10	1897	5.26193269292161e-07	15689	23342000	46
+[mbo] 30: learning_rate=0.00537; feature_fraction=0.634; min_data_in_leaf=10; num_leaves=1897 : y = 2.33e+07 : 3601.0 secs : infill_ei
+Saved the current state after iteration 31 in the file bayesiana.RDATA.
+20221104 183635	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	2745	1	1	1	0.1	50	0.5	FALSE	644141	0.0147813917446862	0.422684528627845	192	1871	5.30837168858071e-07	15134	22932000	47
+[mbo] 31: learning_rate=0.0148; feature_fraction=0.423; min_data_in_leaf=192; num_leaves=1871 : y = 2.29e+07 : 2452.6 secs : infill_ei
+Saved the current state after iteration 32 in the file bayesiana.RDATA.
+20221104 184104	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	268	1	1	1	0.1	50	0.5	FALSE	644141	0.247902326886513	0.371242492220737	2547	207	8.97576744682933e-05	15172	20376000	48
+[mbo] 32: learning_rate=0.248; feature_fraction=0.371; min_data_in_leaf=2547; num_leaves=207 : y = 2.04e+07 : 266.3 secs : infill_ei
+20221104 184744	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	573	1	1	1	0.1	50	0.5	FALSE	644141	0.164156735550008	0.347517622698657	4189	235	0.000143144282328221	15932	18856000	49
+[mbo] 33: learning_rate=0.164; feature_fraction=0.348; min_data_in_leaf=4189; num_leaves=235 : y = 1.89e+07 : 399.4 secs : infill_ei
+Saved the current state after iteration 34 in the file bayesiana.RDATA.
+20221104 185444	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	765	1	1	1	0.1	50	0.5	FALSE	644141	0.0905162499950605	0.935877886764892	4280	1268	0.000491558532704134	14568	21744000	50
+[mbo] 34: learning_rate=0.0905; feature_fraction=0.936; min_data_in_leaf=4280; num_leaves=1268 : y = 2.17e+07 : 416.5 secs : infill_ei
+20221104 185826	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	357	1	1	1	0.1	50	0.5	FALSE	644141	0.263743835960343	0.909923695222847	6129	852	0.000549109289671551	16161	17678000	51
+[mbo] 35: learning_rate=0.264; feature_fraction=0.91; min_data_in_leaf=6129; num_leaves=852 : y = 1.77e+07 : 221.4 secs : infill_ei
+Saved the current state after iteration 36 in the file bayesiana.RDATA.
+20221104 191430	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	776	1	1	1	0.1	50	0.5	FALSE	644141	0.0116194851417507	0.510692613883445	1172	1613	0.00866151943983959	15498	23644000	52
+[mbo] 36: learning_rate=0.0116; feature_fraction=0.511; min_data_in_leaf=1172; num_leaves=1613 : y = 2.36e+07 : 961.4 secs : infill_ei
+Saved the current state after iteration 37 in the file bayesiana.RDATA.
+20221104 195009	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	1171	1	1	1	0.1	50	0.5	FALSE	644141	0.00706263401993095	0.517168104917277	115	1898	0.000520370352718618	14872	23616000	53
+[mbo] 37: learning_rate=0.00706; feature_fraction=0.517; min_data_in_leaf=115; num_leaves=1898 : y = 2.36e+07 : 2136.6 secs : infill_ei
+Saved the current state after iteration 38 in the file bayesiana.RDATA.
+20221104 195905	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	557	1	1	1	0.1	50	0.5	FALSE	644141	0.0718014519251266	0.792440869257972	572	1534	2.71600076228161e-06	12246	24868000	54
+[mbo] 38: learning_rate=0.0718; feature_fraction=0.792; min_data_in_leaf=572; num_leaves=1534 : y = 2.49e+07 : 533.4 secs : infill_ei
+20221104 200440	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	529	1	1	1	0.1	50	0.5	FALSE	644141	0.147340352374384	0.826835991156846	3594	1932	0.000135671502153372	15528	20544000	55
+[mbo] 39: learning_rate=0.147; feature_fraction=0.827; min_data_in_leaf=3594; num_leaves=1932 : y = 2.05e+07 : 334.9 secs : infill_ei
+Saved the current state after iteration 40 in the file bayesiana.RDATA.
+20221104 201110	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	504	1	1	1	0.1	50	0.5	FALSE	644141	0.0819414084612322	0.943800173440389	2123	1997	0.000471061046973169	12571	23418000	56
+[mbo] 40: learning_rate=0.0819; feature_fraction=0.944; min_data_in_leaf=2123; num_leaves=1997 : y = 2.34e+07 : 387.3 secs : infill_ei
+20221104 202424	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	770	1	1	1	0.1	50	0.5	FALSE	644141	0.0431391081819241	0.436499342440628	318	1071	1.93193154346002e-06	13644	24072000	57
+[mbo] 41: learning_rate=0.0431; feature_fraction=0.436; min_data_in_leaf=318; num_leaves=1071 : y = 2.41e+07 : 792.8 secs : infill_ei
+Saved the current state after iteration 42 in the file bayesiana.RDATA.
+20221104 203236	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	634	1	1	1	0.1	50	0.5	FALSE	644141	0.218506399065631	0.43992246958483	3650	442	6.64073195817761e-06	14511	19218000	58
+[mbo] 42: learning_rate=0.219; feature_fraction=0.44; min_data_in_leaf=3650; num_leaves=442 : y = 1.92e+07 : 489.9 secs : infill_ei
+20221104 203502	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	233	1	1	1	0.1	50	0.5	FALSE	644141	0.195048038315073	0.96453905548919	6189	36	0.010666541910769	13769	21662000	59
+[mbo] 43: learning_rate=0.195; feature_fraction=0.965; min_data_in_leaf=6189; num_leaves=36 : y = 2.17e+07 : 144.8 secs : infill_ei
+Saved the current state after iteration 44 in the file bayesiana.RDATA.
+20221104 203725	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	89	1	1	1	0.1	50	0.5	FALSE	644141	0.104374984028181	0.791049140212685	3876	1292	0.0157901002359528	14942	23236000	60
+[mbo] 44: learning_rate=0.104; feature_fraction=0.791; min_data_in_leaf=3876; num_leaves=1292 : y = 2.32e+07 : 140.6 secs : infill_ei
+20221104 204125	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	171	1	1	1	0.1	50	0.5	FALSE	644141	0.270923422969953	0.441861389519088	271	748	4.43718222056575e-07	14430	17940000	61
+[mbo] 45: learning_rate=0.271; feature_fraction=0.442; min_data_in_leaf=271; num_leaves=748 : y = 1.79e+07 : 240.0 secs : infill_ei
+20221104 204757	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	364	1	1	1	0.1	50	0.5	FALSE	644141	0.180656189567231	0.557948300711252	2871	1182	0.000128686936324251	15157	20326000	62
+[mbo] 46: learning_rate=0.181; feature_fraction=0.558; min_data_in_leaf=2871; num_leaves=1182 : y = 2.03e+07 : 391.2 secs : infill_ei
+Saved the current state after iteration 47 in the file bayesiana.RDATA.
+20221104 205512	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	705	1	1	1	0.1	50	0.5	FALSE	644141	0.126491893787055	0.264360836996138	1460	243	1.35443342449535e-06	13772	21736000	63
+[mbo] 47: learning_rate=0.126; feature_fraction=0.264; min_data_in_leaf=1460; num_leaves=243 : y = 2.17e+07 : 432.2 secs : infill_ei
+20221104 210000	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	415	1	1	1	0.1	50	0.5	FALSE	644141	0.234042441041265	0.659432577651553	2491	1229	5.77578707750965e-06	12743	21154000	64
+[mbo] 48: learning_rate=0.234; feature_fraction=0.659; min_data_in_leaf=2491; num_leaves=1229 : y = 2.12e+07 : 288.0 secs : infill_ei
+Saved the current state after iteration 49 in the file bayesiana.RDATA.
+20221104 210628	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	453	1	1	1	0.1	50	0.5	FALSE	644141	0.264233806654516	0.480477636093088	7390	1070	0.000714042398083829	15202	19836000	65
+[mbo] 49: learning_rate=0.264; feature_fraction=0.48; min_data_in_leaf=7390; num_leaves=1070 : y = 1.98e+07 : 384.5 secs : infill_ei
+20221104 211017	1222	482248	gbdt	binary	custom	TRUE	TRUE	FALSE	TRUE	-100	-1	0	0.001	0	0	31	331	1	1	1	0.1	50	0.5	FALSE	644141	0.252486160681184	0.876155519657023	5200	1878	0.000904605727527828	12514	20492000	66
+[mbo] 50: learning_rate=0.252; feature_fraction=0.876; min_data_in_leaf=5200; num_leaves=1878 : y = 2.05e+07 : 228.9 secs : infill_ei
+Saved the final state in the file bayesiana.RDATA
+Saved the final state in the file bayesiana.RDATA
